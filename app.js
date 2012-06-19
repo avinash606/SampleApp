@@ -30,7 +30,30 @@ app.configure('production', function(){
 
 // Routes
 
-app.get('/', routes.index);
+//app.get('/', routes.index);
+
+//app.get('/about', routes.about);
+
+//app.get('/contact', routes.contact);
+
+
+app.get('/', function(req, res){
+  res.render('index', {
+    title: 'Home',welcome: 'Welcome' 
+  });
+});
+
+app.get('/about', function(req, res){
+  res.render('about', {
+    title: 'About',welcome: 'this page is under construction'
+  });
+});
+
+app.get('/contact', function(req, res){
+  res.render('contact', {
+    title: 'Contact',welcome: 'this page is under construction'
+  });
+});
 
 app.listen(3000, function(){
   console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
