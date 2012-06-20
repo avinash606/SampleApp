@@ -55,6 +55,10 @@ app.get('/contact', function(req, res){
   });
 });
 
+app.get('/lll',function(req,res){
+	
+});
+
 app.listen(3000, function(){
   console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
 });
