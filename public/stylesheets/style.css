@@ -2,7 +2,7 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   text-align: center;
-  background: #000;
+  background: #90ee90;
 }
 a {
   color: #00b7ff;
@@ -18,7 +18,7 @@ a {
 /* Header
 -----------------------------------------------------------------------------*/
 header {
-  background: #f00060;
+  background: #006400;
 }
 header nav {
   width: 960px;
@@ -36,7 +36,7 @@ header nav ul li {
   margin-left: 1%;
 }
 header nav ul li a {
-  background: #fc9200;
+  background: #fdc755;
   display: inline-block;
   padding: 5px 15px 6px;
   color: #fff;
